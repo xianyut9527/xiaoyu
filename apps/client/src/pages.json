@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "path": "pages/chat/list",
+      "style": {
+        "navigationBarTitleText": "会话"
+      }
+    },
+    {
+      "path": "pages/analysis/templates",
+      "style": {
+        "navigationBarTitleText": "出谋划策"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4f6df5",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/chat/list",
+        "text": "会话"
+      },
+      {
+        "pagePath": "pages/analysis/templates",
+        "text": "出谋划策"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "幕僚",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F5F5"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@xiaoyu/api-types",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Shared API types and DTOs for 幕僚 monorepo",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

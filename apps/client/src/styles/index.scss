@@ -1,0 +1,62 @@
+// 全局样式入口
+// 通过 main.ts 引入，uni-app 编译时会注入到 H5 的 <style> 标签内。
+
+/* 主题色 */
+$primary-color: #4f6df5;
+$primary-color-light: #eaf0ff;
+$success-color: #52c41a;
+$warning-color: #faad14;
+$danger-color: #ff4d4f;
+$text-color: #1f1f1f;
+$text-color-secondary: #666666;
+$text-color-tertiary: #999999;
+$border-color: #e5e5e5;
+$background-color: #f5f5f5;
+$background-color-card: #ffffff;
+
+/* 字体大小 */
+$font-size-xs: 22rpx;
+$font-size-sm: 26rpx;
+$font-size-base: 28rpx;
+$font-size-md: 32rpx;
+$font-size-lg: 36rpx;
+$font-size-xl: 44rpx;
+
+/* 间距 */
+$spacing-xs: 8rpx;
+$spacing-sm: 16rpx;
+$spacing-md: 24rpx;
+$spacing-lg: 32rpx;
+$spacing-xl: 48rpx;
+
+/* 圆角 */
+$border-radius-sm: 8rpx;
+$border-radius-md: 16rpx;
+$border-radius-lg: 24rpx;
+
+page {
+  background-color: $background-color;
+  color: $text-color;
+  font-size: $font-size-base;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  line-height: 1.5;
+}
+
+view,
+text {
+  box-sizing: border-box;
+}
+
+/* 通用容器 */
+.container {
+  padding: $spacing-md;
+}
+
+.card {
+  background-color: $background-color-card;
+  border-radius: $border-radius-md;
+  padding: $spacing-md;
+  margin-bottom: $spacing-sm;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.04);
+}
